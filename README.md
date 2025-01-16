@@ -42,6 +42,34 @@ The goal of this project is to build an accurate and efficient segmentation pipe
 ```
 ---
 
+## Results
+Here are some outputs from the segmentation pipeline, showcasing various stages such as preprocessing, segmentation and PointNet predictions.
+
+### Original Point Cloud
+<img src="assets/original_pointcloud.png" alt="Original Point Cloud" width="400">
+
+### Preprocessed Point Clouds
+
+#### Radius Outlier Removal
+<img src="assets/radius_outlier.png" alt="Radius Outlier Removal" width="400">
+
+#### 3D Harris Corner Detection
+<img src="assets/corner_detect.png" alt="3D Harris Corner Detection" width="400">
+
+#### Ground Plane Segmentation
+<img src="assets/ground_plane.png" alt="Ground Plane Segmentation" width="400">
+
+### Semantic Segmentation for this Pipeline
+<img src="assets/semantic_segmentation.png" alt="Semantic Segmentation" width="400">
+
+### PointNet Semantic Segmentation
+<img src="assets/pointnet.png" alt="PointNet Segmentation" width="400">
+
+### Full pipeline run on Kitti
+<img src="assets/kitti.png" alt="Kitti Test" width="400">
+
+---
+
 ## Contact
 
 For any questions or collaboration opportunities, feel free to reach out at [hey@njoguevans.me](mailto:hey@njoguevans.me).
