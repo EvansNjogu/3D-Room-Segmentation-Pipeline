@@ -36,7 +36,8 @@ The goal of this project is to build an accurate and efficient segmentation pipe
 ## Project Structure  
 
 ```
-3D-Room-Segmentation-Pipeline/ 
+3D-Room-Segmentation-Pipeline/
+ ├── 📁 assets 
  ├── 📁 docs
  └── 📂 notebooks 
 ```
